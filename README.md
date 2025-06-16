@@ -13,7 +13,8 @@ Update: Selecionar um utilizador da lista, editar os seus dados e guardar as alt
 Delete: Selecionar um utilizador da lista e removê-lo da base de dados após uma confirmação.
 
 
-—---------------------------------------------------------------------------------- Tecnologias Utilizadas
+—---------------------------------------------------------------------------------- 
+Tecnologias Utilizadas
 Linguagem: Java (JDK 17+)
 Interface Gráfica: Java Swing
 Base de Dados: SQLite
@@ -59,7 +60,8 @@ Encontre o ficheiro Main.java dentro da pasta src/view.
 Clique com o botão direito do rato sobre o ficheiro e selecione Run 'Main.main()'.
 Observação: Se o ficheiro users.db não existir, o programa irá criá-lo automaticamente na primeira execução.
 
-—---------------------------------------------------------------------------------- Como Usar a Aplicação
+—---------------------------------------------------------------------------------- 
+Como Usar a Aplicação
 A interface principal permite realizar todas as operações de forma intuitiva.
 [Imagem da tela principal do seu sistema]
 Adicionar um Utilizador:
@@ -76,5 +78,6 @@ Clique num nome na lista para o selecionar.
 Clique no botão "Excluir".
 Uma caixa de diálogo pedirá a confirmação. Clique em "Sim" para remover o registo permanentemente.
 
-—---------------------------------------------------------------------------------- Autor
+—---------------------------------------------------------------------------------- 
+Autor
 Fernando Santos
