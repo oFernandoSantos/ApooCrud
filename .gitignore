@@ -1,0 +1,17 @@
+# Ficheiros compilados do Java
+/out/
+
+# Ficheiros e pastas de configuração do IntelliJ IDEA
+.idea/
+
+# Ficheiro da base de dados local
+*.db
+
+# Ficheiros de log que podem ser gerados
+*.log
+
+# Ficheiros de configuração do Maven/Gradle, se usar
+target/
+build/
+*.jar
+*.war
