@@ -9,13 +9,13 @@ public class UserDAO {
     private Connection connection;
 
     public UserDAO() {
-        // Estabelece a conexão e cria a tabela se ela não existir
+        
         this.connection = connect();
         createTable();
     }
 
     private Connection connect() {
-        String url = "jdbc:sqlite:users.db"; // Arquivo do banco de dados na raiz do projeto
+        String url = "jdbc:sqlite:users.db"; 
         Connection conn = null;
         try {
             conn = DriverManager.getConnection(url);
